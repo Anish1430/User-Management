@@ -40,7 +40,7 @@ public class UserController {
          for (User user : userList) {
             if(user.getUserId().equals(UserId)){  //1
                  user.setUserName(UserName);  //2
-                return "User is"+" "+UserId+" "+"Updated Now"+" "+UserName;
+                return "User is"+" "+UserId+" "+"Updated"+" "+UserName;
             }
          }
          return "Invalid UserId and User Name";
@@ -58,5 +58,11 @@ public class UserController {
             }
         }
         return "Invalid UserId";
+=======
+                return "User is"+" "+UserId+" "+"Updated"+" "+UserName;
+            }
+         }
+         return "Invalid UserId And User Name";
+>>>>>>> origin/master
      }
 }
