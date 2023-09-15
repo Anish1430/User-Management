@@ -40,10 +40,10 @@ public class UserController {
          for (User user : userList) {
             if(user.getUserId().equals(UserId)){  //1
                  user.setUserName(UserName);  //2
-                return "User is"+" "+UserId+" "+"Updated"+" "+UserName;
+                return "User is"+" "+UserId+" "+"Updated Now"+" "+UserName;
             }
          }
-         return "Invalid UserId And User Name";
+         return "Invalid UserId and User Name";
      }
 
     //delete api in User Management System
