@@ -58,11 +58,5 @@ public class UserController {
             }
         }
         return "Invalid UserId";
-=======
-                return "User is"+" "+UserId+" "+"Updated"+" "+UserName;
-            }
-         }
-         return "Invalid UserId And User Name";
->>>>>>> origin/master
      }
 }
