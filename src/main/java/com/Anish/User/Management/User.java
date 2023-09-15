@@ -7,6 +7,8 @@ public class User {
     private String address;
     private String number;
 
+    private String phooneNumber;
+
     public User(Integer userId, String name, String userName, String address, String number) {
         this.userId = userId;
         this.name = name;
